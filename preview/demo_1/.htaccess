@@ -13,7 +13,7 @@ RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
 RewriteRule ^ - [L]
 
 # If the requested resource doesn't exist, use index.html
-RewriteRule ^ /demo/purple-free-vue/preview/demo_1/index.html
+RewriteRule ^ /matchbox-id/admin/preview/demo_1/index.html
 </IfModule>
 
 # END WordPress
